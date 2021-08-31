@@ -41,10 +41,12 @@ percentage_marks.place(x=50,y=220)
 grade_scored =Label(root,text="Grades",font="arial 20")
 grade_scored.place(x=50,y=270)
 
+#To create blank box infront of subjects
 physics_marks = StringVar()
 chemistry_marks = StringVar()
 maths_marks = StringVar()
 
+#To give input marks in boxes
 physics_value = Entry(root,textvariable =physics_marks ,font="arial 20",width=50)
 physics_value.place(x=250,y=20)
 
